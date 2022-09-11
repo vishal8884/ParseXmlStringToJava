@@ -1,0 +1,6 @@
+
+1) by default jackson core will be there in springboot
+   to add jackson xml we need to add dependency 
+   implementation group: 'com.fasterxml.jackson.dataformat', name: 'jackson-dataformat-xml', version: '2.13.4'
+   
+   this dependency helps us to fetch xml response from the postman (if not there it gives us 406 not acceptable)
